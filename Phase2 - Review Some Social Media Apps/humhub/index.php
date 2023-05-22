@@ -10,16 +10,16 @@
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
 
-require(__DIR__ . '/protected/vendor/autoload.php');
-require(__DIR__ . '/protected/vendor/yiisoft/yii2/Yii.php');
+require_once(__DIR__ . '/protected/vendor/autoload.php');
+require_once(__DIR__ . '/protected/vendor/yiisoft/yii2/Yii.php');
 
 
 $config = yii\helpers\ArrayHelper::merge(
-    require(__DIR__ . '/protected/humhub/config/common.php'),
-    require(__DIR__ . '/protected/humhub/config/web.php'),
-    (is_readable(__DIR__ . '/protected/config/dynamic.php')) ? require(__DIR__ . '/protected/config/dynamic.php') : [],
-    require(__DIR__ . '/protected/config/common.php'),
-    require(__DIR__ . '/protected/config/web.php')
+    require_once(__DIR__ . '/protected/humhub/config/common.php'),
+    require_once(__DIR__ . '/protected/humhub/config/web.php'),
+    (is_readable(__DIR__ . '/protected/config/dynamic.php')) ? require_once(__DIR__ . '/protected/config/dynamic.php') : [],
+    require_once(__DIR__ . '/protected/config/common.php'),
+    require_once(__DIR__ . '/protected/config/web.php')
 );
 
 (new humhub\components\Application($config))->run();

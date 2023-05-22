@@ -101,8 +101,8 @@ jQuery(document).ready(function() {
   jQuery("time.timeago").timeago();
 });</pre>
       <p class="how">
-        This will turn all <tt>time</tt> elements with a class
-        of <tt>timeago</tt> and an <a href="http://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> timestamp in the datetime:
+        This will turn all time elements with a class
+        of timeago and an <a href="http://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> timestamp in the datetime:
       </p>
       <pre>
 &lt;time class=&quot;<em>timeago</em>&quot; datetime=&quot;<em>2008-07-17T09:24:17Z</em>&quot;&gt;July 17, 2008&lt;/time&gt;</pre>
@@ -124,15 +124,15 @@ jQuery.timeago("2008-07-17");           //=> &quot;<span id="prog_string"></span
 jQuery.timeago(jQuery("time#some_id")); //=> &quot;<span id="prog_element"></span>&quot;     // [title=&quot;2008-07-20&quot;]</pre>
 
       <p class="how">
-        To support timestamps in the future, use the <tt>allowFuture</tt> setting:
+        To support timestamps in the future, use the allowFuture setting:
       </p>
       <pre>
 jQuery.timeago.settings.allowFuture = true;</pre>
 
       <p class="how">
-        To disable timestamps in the past, use the <tt>allowPast</tt> setting.
+        To disable timestamps in the past, use the allowPast setting.
         This setting is set to true by default. When set to false, if the time is in the past then instead of displaying a message like "5 minutes ago" a static message will be displayed.
-        The staic message displayed can be configured with the <tt>strings.inPast</tt> setting:
+        The staic message displayed can be configured with the strings.inPast setting:
       </p>
       <pre>
 jQuery.timeago.settings.strings.inPast = "time has elapsed";
@@ -158,7 +158,7 @@ jQuery.timeago.settings.allowPast = false;</pre>
         shoulders of giants.  John Resig wrote about
         a <a href="http://ejohn.org/blog/javascript-pretty-date/">similar
         approach</a>.  The verbiage was based on
-        the <tt>distance_of_time_in_words</tt> ActionView helper
+        the distance_of_time_in_words ActionView helper
         in <a href="http://rubyonrails.org">Ruby on Rails</a>.
       </p>
 
@@ -169,7 +169,7 @@ jQuery.timeago.settings.allowPast = false;</pre>
 
       <h3>What else?</h3>
       <p class="example">
-        The HTML5 <tt>time</tt> tag is strongly recommended, but the legacy <a href="http://microformats.org/wiki/datetime-design-pattern">datetime microformat</a> using the <tt>abbr</tt> tag is also supported:
+        The HTML5 time tag is strongly recommended, but the legacy <a href="http://microformats.org/wiki/datetime-design-pattern">datetime microformat</a> using the abbr tag is also supported:
       </p>
       <pre>
 &lt;abbr class=&quot;<em>timeago</em>&quot; title=&quot;<em>2008-07-17T09:24:17Z</em>&quot;&gt;July 17, 2008&lt;/abbr&gt;</pre>
@@ -193,7 +193,7 @@ jQuery(document).ready(function() {
 
       <h3>Huh?</h3>
       <p class="last">
-        Need a Rails helper to make those fancy microformat <tt>time</tt> tags?  Fine, here ya go:
+        Need a Rails helper to make those fancy microformat time tags?  Fine, here ya go:
       </p>
       <pre>
 def timeago(time, options = {})

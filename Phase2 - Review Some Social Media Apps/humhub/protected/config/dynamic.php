@@ -18,6 +18,11 @@
         'dsn' => 'native://default',
       ),
     ),
+    'cache' => 
+    array (
+      'class' => 'yii\\caching\\FileCache',
+      'keyPrefix' => 'humhub',
+    ),
   ),
   'params' => 
   array (
@@ -29,10 +34,11 @@
         'installer_database' => 'humhub_database',
       ),
     ),
-    'config_created_at' => 1684078166,
-    'horImageScrollOnMobile' => NULL,
+    'config_created_at' => 1684078616,
+    'horImageScrollOnMobile' => '1',
     'databaseInstalled' => true,
+    'installed' => true,
   ),
-  'name' => NULL,
+  'name' => 'HumHub',
   'language' => 'en-US',
 ); ?>

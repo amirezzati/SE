@@ -357,6 +357,5 @@ class HForm extends \yii\base\Component
             return "No model for: FieldName: " . $name . " Forms: " . print_r($forms, 1) . "<br>";
         }
 
-        return $output;
     }
 }

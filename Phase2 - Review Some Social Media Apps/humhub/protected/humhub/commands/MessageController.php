@@ -40,7 +40,7 @@ class MessageController extends \yii\console\controllers\MessageController
             'sort' => true,
             'format' => 'php',
             'ignoreCategories' => [],
-        ], require($configFile));
+        ], require_once($configFile));
 
         $config['sourcePath'] = $module->getBasePath();
         $this->config = $config;
@@ -164,7 +164,7 @@ class MessageController extends \yii\console\controllers\MessageController
             foreach ($messageFolders as $messageFolder) {
                 if (is_dir($messageFolder . '/' . $language)) {
                     foreach (glob($messageFolder . '/' . $language . '/*.php') as $messageFile) {
-                        $messages = require($messageFile);
+                        $messages = require_once($messageFile);
                         foreach ($messages as $original => $translated) {
 
                             // Removed unused marking
