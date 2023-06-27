@@ -1,4 +1,4 @@
-import time, random
+import time
 from locust import HttpUser, task, between
 
 class FlowException(Exception):
@@ -6,9 +6,6 @@ class FlowException(Exception):
 
 class QuickstartUser(HttpUser):
     wait_time = between(1, 3)
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)  
-        self.id_num = 4
 
     @task(1)
     def dashboard(self):
