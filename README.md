@@ -19,6 +19,8 @@ We had three steps in this phase:
 - Checking all three projects to figure out which one meets our requirements to choose that for further steps. 
 - Checking security of HumHub project with Acunetix and OWASP ZAP tools.
 - Checking code equality of HumHub project with SonarQube tool.
+
+Our phase 2 report is available in this [link](https://github.com/amirezzati/SE/blob/main/Phase2%20-%20Review%20Some%20Social%20Media%20Apps/SE%20-%20Phase%202%20report.pdf).
       
 <hr>     
 <br>       
