@@ -1,0 +1,30 @@
+Method,Name,Error,Occurrences
+GET,/humhub/index.php?r=space%25%02Fspace&cguid=e4e72610-35d6-4ab8-8be0-18489a83ee0f,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",13
+POST,/humhub/index.php?r=like%25%02Flike%25%02Flike&contentModel=humhub%255Cmodules%255Cpost%255Cmodels%255CPost&contentId=3,"ChunkedEncodingError(ProtocolError(""Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)"", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))",1
+POST,/humhub/index.php?r=user%25%02Fauth%25%02Flogin,"ConnectionRefusedError(10061, '[WinError 10061] No connection could be made because the target machine actively refused it.')",593
+POST,/humhub/index.php?r=user%25%02Fprofile%25%02Ffollow&cguid=8f3d6c9e-d163-4f69-b804-aea5c6ffd09a,RemoteDisconnected('Remote end closed connection without response'),2
+POST,/humhub/index.php?r=comment%2Fcomment%2Fpost,RemoteDisconnected('Remote end closed connection without response'),13
+GET,/humhub/index.php?r=user%25%02Fpeople,"ConnectionRefusedError(10061, '[WinError 10061] No connection could be made because the target machine actively refused it.')",206
+POST,/humhub/index.php?r=comment%2Fcomment%2Fpost,"ConnectionRefusedError(10061, '[WinError 10061] No connection could be made because the target machine actively refused it.')",439
+POST,/humhub/index.php?r=like%25%02Flike%25%02Flike&contentModel=humhub%255Cmodules%255Cpost%255Cmodels%255CPost&contentId=3,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",5
+POST,/humhub/index.php?r=comment%2Fcomment%2Fpost,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",17
+GET,/humhub/index.php?r=user%25%02Fpeople,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",6
+GET,/humhub/,"ConnectionRefusedError(10061, '[WinError 10061] No connection could be made because the target machine actively refused it.')",209
+POST,/humhub/index.php?r=space%25%02Fspace&cguid=e4e72610-35d6-4ab8-8be0-18489a83ee0f,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",12
+GET,/humhub/index.php?r=space%25%02Fspace&cguid=e4e72610-35d6-4ab8-8be0-18489a83ee0f,RemoteDisconnected('Remote end closed connection without response'),19
+POST,/humhub/index.php?r=space%25%02Fspace&cguid=e4e72610-35d6-4ab8-8be0-18489a83ee0f,RemoteDisconnected('Remote end closed connection without response'),3
+GET,/humhub/index.php?r=user%25%02Fprofile&cguid=8f3d6c9e-d163-4f69-b804-aea5c6ffd09a,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",10
+POST,/humhub/index.php?r=like%25%02Flike%25%02Flike&contentModel=humhub%255Cmodules%255Cpost%255Cmodels%255CPost&contentId=3,"ConnectionRefusedError(10061, '[WinError 10061] No connection could be made because the target machine actively refused it.')",361
+POST,/humhub/index.php?r=space%25%02Fspace&cguid=e4e72610-35d6-4ab8-8be0-18489a83ee0f,"ConnectionRefusedError(10061, '[WinError 10061] No connection could be made because the target machine actively refused it.')",295
+POST,/humhub/index.php?r=user%25%02Fauth%25%02Flogin,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",83
+POST,/humhub/index.php?r=user%25%02Fauth%25%02Flogin,RemoteDisconnected('Remote end closed connection without response'),7
+GET,/humhub/,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",1
+GET,/humhub/index.php?r=user%25%02Fprofile&cguid=8f3d6c9e-d163-4f69-b804-aea5c6ffd09a,"ConnectionRefusedError(10061, '[WinError 10061] No connection could be made because the target machine actively refused it.')",165
+GET,/humhub/index.php?r=space%25%02Fspace&cguid=e4e72610-35d6-4ab8-8be0-18489a83ee0f,"ConnectionRefusedError(10061, '[WinError 10061] No connection could be made because the target machine actively refused it.')",966
+POST,/humhub/index.php?r=user%25%02Fprofile%25%02Ffollow&cguid=8f3d6c9e-d163-4f69-b804-aea5c6ffd09a,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",1
+GET,/humhub/index.php?r=user%25%02Fprofile&cguid=8f3d6c9e-d163-4f69-b804-aea5c6ffd09a,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/humhub/,RemoteDisconnected('Remote end closed connection without response'),3
+GET,/humhub/index.php?r=user%25%02Fpeople,RemoteDisconnected('Remote end closed connection without response'),4
+POST,/humhub/index.php?r=user%25%02Fauth%25%02Flogin,"ChunkedEncodingError(ProtocolError(""Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)"", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))",1
+POST,/humhub/index.php?r=like%25%02Flike%25%02Flike&contentModel=humhub%255Cmodules%255Cpost%255Cmodels%255CPost&contentId=3,RemoteDisconnected('Remote end closed connection without response'),3
+POST,/humhub/index.php?r=user%25%02Fprofile%25%02Ffollow&cguid=8f3d6c9e-d163-4f69-b804-aea5c6ffd09a,"ConnectionRefusedError(10061, '[WinError 10061] No connection could be made because the target machine actively refused it.')",117

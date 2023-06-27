@@ -1,0 +1,37 @@
+Count,Message,Traceback,Nodes
+469,The comment is not sent.,"  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 347, in run
+    self.execute_next_task()
+  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 372, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 493, in execute_task
+    task(self.user)
+  File ""C:\Users\amezz\Desktop\SE\Phase3 - Checking Performance\Locust\locustfile.py"", line 43, in leave_comment
+    raise FlowException('The comment is not sent.')
+",local
+310,Post is not created.,"  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 347, in run
+    self.execute_next_task()
+  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 372, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 493, in execute_task
+    task(self.user)
+  File ""C:\Users\amezz\Desktop\SE\Phase3 - Checking Performance\Locust\locustfile.py"", line 22, in new_post
+    raise FlowException('Post is not created.')
+",local
+370,Post is not liked.,"  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 347, in run
+    self.execute_next_task()
+  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 372, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 493, in execute_task
+    task(self.user)
+  File ""C:\Users\amezz\Desktop\SE\Phase3 - Checking Performance\Locust\locustfile.py"", line 28, in like_post
+    raise FlowException('Post is not liked.')
+",local
+120,The person is not followed.,"  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 347, in run
+    self.execute_next_task()
+  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 372, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""C:\Users\amezz\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 493, in execute_task
+    task(self.user)
+  File ""C:\Users\amezz\Desktop\SE\Phase3 - Checking Performance\Locust\locustfile.py"", line 36, in follow_user
+    raise FlowException('The person is not followed.')
+",local
