@@ -22,8 +22,20 @@ We had three steps in this phase:
 
 Our phase 2 report is available in this [link](https://github.com/amirezzati/SE/blob/main/Phase2%20-%20Review%20Some%20Social%20Media%20Apps/SE%20-%20Phase%202%20report.pdf).
       
+<hr>
+
+**Phase 3: Checking Performance, Load Testing, Stress Testing**      
+In this phase we checked performance of [HumHub](https://github.com/humhub/humhub) project.     
+
+We checked performance using these tools: 
+- [Xdebug](https://xdebug.org/) is a powerful tool that gives you the ability to analyse your PHP code and determine bottlenecks or generally see which parts of your code are slow and could use a speed boost.
+- [KCacheGrind](https://kcachegrind.github.io/html/Home.html) is able to visualize output of other profilers like Xdebug.
+- [Locust](https://locust.io/) is for load and stress testing.
+- [JMeter](https://jmeter.apache.org/) is for load and stress testing.
+      
 <hr>     
-<br>       
+<br>           
+
 
 You can get more detailed information about each phase by referring to the [wiki](https://github.com/amirezzati/SE/wiki).
 
