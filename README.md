@@ -1,5 +1,5 @@
 # Software Engineering Course Project
-**University of Guilan - spring 2023**
+**University of Guilan - Spring 2023**
          
 <br> 
 
@@ -32,7 +32,8 @@ We checked performance using these tools:
 - [KCacheGrind](https://kcachegrind.github.io/html/Home.html) is able to visualize output of other profilers like Xdebug.
 - [Locust](https://locust.io/) is for load and stress testing.
 - [JMeter](https://jmeter.apache.org/) is for load and stress testing.
-      
+
+Our phase 3 report is available in this [link](https://github.com/amirezzati/SE/blob/main/Phase3%20-%20Checking%20Performance/SE%20-%20Phase%203%20report.pdf)
 <hr>     
 <br>           
 
